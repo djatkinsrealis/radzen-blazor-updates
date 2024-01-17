@@ -1,0 +1,11 @@
+﻿@use "sass:meta";
+@use "blaze.colours.scss" as blaze-colours-scss;
+@import "blaze.mixins.scss";
+
+.blaze-colours-mixins {
+    color: #666;
+}
+
+$blaze-colours: meta.module-variables('blaze-colours-scss');
+
+@include add-css-variables($blaze-colours);

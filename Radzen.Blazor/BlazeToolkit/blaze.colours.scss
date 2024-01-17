@@ -1,0 +1,65 @@
+﻿// Ensure you update the docs page if you update this file.
+.blaze-colours {
+    color: #666;
+}
+
+// Brand colours.
+$blaze-brand-blue: #4BB4D3;
+$blaze-brand-green: #85BF7B;
+$blaze-brand-light-purple: #CF79AE;
+$blaze-brand-light-yellow: #FFF1D5;
+$blaze-brand-navy: #4D7ABC;
+$blaze-brand-orange: #EF7D44;
+$blaze-brand-pink: #EB5F8A;
+$blaze-brand-purple: #7B6AAC;
+$blaze-brand-red: #EE2B5A;
+
+// Brand gradients.
+$blaze-brand-gradient-chill: linear-gradient(90deg, #B4EAFA 0%, #C7D4FB 100%);
+$blaze-brand-gradient-amethyst: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+
+// Primary colours.
+$blaze-primary-black: #181818;
+$blaze-primary-blue: #4D7ABC;
+$blaze-primary-navy: #005A84;
+$blaze-primary-white: #FFFFFF;
+$blaze-primary-yellow: #FCC955;
+
+// Secondary colours.
+$blaze-secondary-bright-blue: #DFEEFC;
+$blaze-secondary-dark-blue: #3654A9;
+$blaze-secondary-darkest-blue: #004869;
+$blaze-secondary-light-blue: #F1F7FC;
+$blaze-secondary-mid-blue: #D6E1F1;
+
+// Tertiary colours.
+$blaze-tertiary-dark-grey: #5C5C5C;
+$blaze-tertiary-grey: #766F6F;
+$blaze-tertiary-light-grey: #FCFCFC;
+$blaze-tertiary-mid-grey: #CDCDCD;
+$blaze-tertiary-deselected-grey: #808080;
+$blaze-tertiary-stroke: #E7E7E7;
+$blaze-tertiary-transparent: #FFFFFF00;
+
+// System colours.
+$blaze-system-accessible-black: #000000;
+$blaze-system-accessible-yellow: #FFD800;
+$blaze-system-disabled-grey: #766F6F;
+$blaze-system-danger: #EE2B5A;
+$blaze-system-danger-subtle: #FCD5DE;
+$blaze-system-hyperlink-blue: #3868EC;
+$blaze-system-success: #4A8440;
+$blaze-system-success-subtle: #E4EDE2;
+$blaze-system-warning: #F89F00;
+$blaze-system-warning-subtle: #FEF4DD;
+
+// Brand defaults (to be overridden in the consumer's app).
+$app-brand-primary: #7A5EDE;
+$app-brand-secondary: #F7F8FA;
+$app-brand-primary-button-text: $blaze-primary-white;
+$app-brand-sidebar-button-hover: rgba($app-brand-primary, .5);
+$app-brand-sidebar-text: $blaze-system-accessible-black;
+$app-brand-sidebar-text-hover: $blaze-system-accessible-black;
+$app-brand-sidebar-background: $app-brand-secondary;
+$app-brand-navigation-mobile-background: $app-brand-primary;
+$app-brand-navigation-expanded-mobile-background: $app-brand-secondary;

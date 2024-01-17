@@ -1,0 +1,73 @@
+@import "blaze.colours.scss";
+.blaze-variables{
+    color: #666;
+}
+// Layout sizes.
+$blaze-basis-width-height: calc(4rem / 16);
+$blaze-sidebar-width: calc($blaze-basis-width-height * 19);
+$blaze-footer-height: calc($blaze-basis-width-height * 18);
+$blaze-row-gap: calc($blaze-basis-width-height * 6);
+$blaze-column-gap: calc($blaze-basis-width-height * 8);
+$blaze-sidebar-expand-button-height: calc(28rem / 16);
+$blaze-sidebar-expand-button-width: calc(46rem / 16);
+$blaze-accessible-tap-target-minimums: calc(44rem / 16);
+
+// Accordion.
+$blaze-accordion-header-height: calc($blaze-basis-width-height * 14);
+$blaze-accordion-spacing: calc($blaze-basis-width-height * 4);
+$blaze-accordion-row-height: calc($blaze-basis-width-height * 12);
+
+// Alert sizes.
+$blaze-alert-font-size: calc(14rem / 16);
+
+// Breakpoints.
+$blaze-xs: 0;
+$blaze-sm: calc(576rem / 16);
+$blaze-md: calc(768rem / 16);
+$blaze-lg: calc(992rem / 16);
+$blaze-xl: calc(1200rem / 16);
+$blaze-xxl: calc(1400rem / 16);
+$blaze-wide: calc($blaze-sidebar-width + $blaze-md + $blaze-md);
+
+// Buttons.
+$blaze-button-padding-y: calc(10rem / 16);
+$blaze-button-padding-x: calc(24rem / 16);
+$blaze-button-font-size: calc(14rem / 16);
+$blaze-button-border-radius: calc(30rem / 16);
+$blaze-button-primary-border-width: calc(1rem / 16);
+$blaze-button-accessible-border-width: calc(3rem / 16);
+$blaze-button-text-decoration: none;
+$blaze-button-width: calc(184rem / 16);
+$blaze-button-sm-width: calc(132rem / 16);
+
+// Footer.
+$blaze-footer-height: calc($blaze-basis-width-height * 19);
+$blaze-footer-gap-top-bottom: calc($blaze-basis-width-height * 4);
+$blaze-footer-gap-start-end: calc($blaze-basis-width-height * 10);
+
+// Shadows.
+$blaze-shadow-top: 0 -.5rem 1rem rgba($blaze-primary-navy, 0.075);
+$blaze-shadow-bottom: 0 .5rem 1rem rgba($blaze-primary-navy, 0.075);
+
+// Tables.
+$blaze-table-row-height: calc(44rem / 16);
+$blaze-table-cell-padding-x: calc(16rem / 16);
+$blaze-table-cell-padding-y: calc(10rem / 16);
+
+// Toasts.
+$blaze-toast-width: calc($blaze-basis-width-height * 64);
+$blaze-toast-height: calc($blaze-basis-width-height * 28);
+
+// Typography.
+$blaze-label-font-size: calc(12rem / 16);
+$blaze-table-font-size: calc(14rem / 16);
+
+// Rhythm.
+$blaze-base-spacing-unit: calc(8rem / 16);
+$blaze-spacing-xs: calc($blaze-base-spacing-unit * 0.5); // 4px.
+$blaze-spacing-sm: calc($blaze-base-spacing-unit * 1); // 8px.
+$blaze-spacing-md: calc($blaze-base-spacing-unit * 2); // 16px. 
+$blaze-spacing-lg: calc($blaze-base-spacing-unit * 3); // 24px.
+$blaze-spacing-xl: calc($blaze-base-spacing-unit * 4); // 32px.
+$blaze-spacing-xxl: calc($blaze-base-spacing-unit * 5); // 40px.
+$blaze-spacing-xxxl: calc($blaze-base-spacing-unit * 8); // 64px.
